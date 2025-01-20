@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-fonts {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+/* shared styles */
+  .display-flex{
+     display:flex;
+  }
+
+ /* navbar styles */
+  .navbar{
+      justify-content: space-evenly;
+      align-items:center;
+      max-width:auto;
+      background-color: #F7F7F7;
+  }
+  .navbar-img{
+    width:52px;
+    height:62px; 
+    gap:20px;
+    align-items: center;
+  }
+  .navbar-title{
+      font-weight: 700;
+      font-size:2rem;
+     
+  }
+  .navbar-list li {
+     list-style:none;
+  }
+ .navbar-list ul{
+    gap:32px;
+ }
+ .home{
+    font-weight: 700;
+    color:#FEA301;
+ }
+ .About{
+   font-weight: 500;
+   color:#01ACFD;
+ }
+ .Facilities{
+    font-weight:500;
+    color:#05D4DF; 
+ }
+ .Admission{
+   font-weight: 500;
+   color:#5D58EF;
+ }
+ .navbar-btn{
+    background-color:#FEA301;
+    padding:10px;
+    border-radius: 12px;
+    border-style: none;
+    font-weight: 600;
+    color:#FFFFFF;
+    width: 197px;
+    height: 50px;
+     padding:10px;
+     font-size:1.2rem;
+ }
+  
+   .menu-icon{
+      width:40px;
+      cursor: pointer;
+      display: none;
+      
+   }
+   .menu-icon div{
+      height:5px;
+      background-color: black;
+      margin:6px 0;
+      
+   }
+ /* responsive styles */
+ @media screen and (max-width:576px){
+      .navbar{
+        justify-content: space-between;
+        border-left:2px solid orange;
+        border-bottom:2px solid orange;
+        background-color: white;
+        padding:15px;
+      }
+      .navbar-title,
+      .navbar-list,
+      .navbar-btn{
+        display:none;
+      }
+       .menu-icon{
+       display:block;
+       margin-right:20px;
+      } 
+      
+      
+ }
+
+
+
+
+
+
+
+
+
+ /* footer styles */
