@@ -117,6 +117,11 @@
   .banner-img{
     width:auto;
   }
+  .mar{
+      font-size:2rem;
+      margin:20px;
+      color:rgb(240, 8, 8);
+  }
   /* standard styles */
   .standard{
       background-image:url(../assets/bg.png);
